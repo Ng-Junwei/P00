@@ -46,13 +46,13 @@ public class CalculatorTest {
 		assertEquals (expected, actual);
 		}
 	public void testDivide() {
-		int a = 4321;
-		int b = 1234;
+		int a = 10;
+		int b = 5;
 			
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b); 
 			 
-		double expected = 3;
+		double expected = 2;
 		assertEquals (expected, actual);
 		}
 
